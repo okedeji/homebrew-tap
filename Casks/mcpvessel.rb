@@ -4,11 +4,11 @@ cask "mcpvessel" do
 
   on_macos do
     on_intel do
-      sha256 "6ed0bd0bf499a4964a736bc80f52e5ef054b0aff5010cfe26ecde16e76a55927"
+      sha256 "3d3b6a3c8729c2c04ad53b91a1e0aa59549ad110ac1386baff5fffe5bec75027"
       url "https://github.com/okedeji/mcpvessel/releases/download/v#{version}/mcpvessel_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "ce9d965c6ea2e6d6b702f553ebd0639e82c925ada62a405c939f54e12f28a11f"
+      sha256 "40b1f15b61efb4a9a77a76a439cb1d39a2f527c6517d65b99cf6994f89c35cba"
       url "https://github.com/okedeji/mcpvessel/releases/download/v#{version}/mcpvessel_#{version}_darwin_arm64.tar.gz"
     end
   end
