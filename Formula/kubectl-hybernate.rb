@@ -3,28 +3,28 @@
 class KubectlHybernate < Formula
   desc "Find idle Kubernetes workloads, and pause and wake them with Hybernate"
   homepage "https://github.com/okedeji/hybernate"
-  version "0.2.0-rc.6"
+  version "0.2.0-rc.7"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.6/kubectl-hybernate-darwin-arm64.tar.gz"
-      sha256 "47312bb530336dd61487819a9a7b8a1d2ffe140c54935cf43c33be78e3738f25"
+      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.7/kubectl-hybernate-darwin-arm64.tar.gz"
+      sha256 "ad112271f96467fb1e007dc7b55b6ce098bcfedc1c3f1fdebb5aa685b1ecaed4"
     end
     on_intel do
-      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.6/kubectl-hybernate-darwin-amd64.tar.gz"
-      sha256 "7ca218b4d62c0e78f7e9dd2f71ea464733948bd32f64e6b823af0193509ca327"
+      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.7/kubectl-hybernate-darwin-amd64.tar.gz"
+      sha256 "9fd2f23cb774834dd3ff3788f8336fa9d4c4ddb9b1df84ca7bcf5f8743c9a293"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.6/kubectl-hybernate-linux-arm64.tar.gz"
-      sha256 "aaa5e47e976d030ca19ce98c63ac16d0aec925c660946a0fda9ad01c613c7984"
+      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.7/kubectl-hybernate-linux-arm64.tar.gz"
+      sha256 "4c3e6aa24695f2be3b90c7740a4acfc3b26b1bffc5327984b531789851941292"
     end
     on_intel do
-      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.6/kubectl-hybernate-linux-amd64.tar.gz"
-      sha256 "d2bcc9ff3b19722ac48ee854ed6262bbf53a957da8d3cb11c1a317beb694e497"
+      url "https://github.com/okedeji/hybernate/releases/download/v0.2.0-rc.7/kubectl-hybernate-linux-amd64.tar.gz"
+      sha256 "0a17abc9f5359f9cad30a9308010250f1a280b2922a14f76d08bbf17b6572faa"
     end
   end
 
